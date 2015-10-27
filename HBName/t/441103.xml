@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language id="44">
+
+<page id="1103" descr="Messages for the Homebase-to-Name-Script">
+<t id="1103">[author]%s[/author][title]\033G Command accepted \033X[/title]The name of your ship %s now contains its homebase, %s.</t>
+<t id="1104">[%s] %s</t>
+</page>
+
+<page id="2010" descr="Long version of commands">
+<t id="509">Add homebase to name</t>
+</page>
+<page id="2011" descr="Short version of commands">
+<t id="509">HBName</t>
+</page>
+
+<page id="2022">
+<t id="509">Expands a ships name with its homebase. Works is as follows:\n[Homebase] Type\nExample: [Carrier 5] Argon Buster \n\n\033BV2.0 \n\033BCopyright Jazura 562 HashtagMC Software Company, \033BHome of Light, Argon Federation</t>
+</page>
+
+</language>
