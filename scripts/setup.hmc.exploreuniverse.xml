@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>setup.hmc.exploreuniverse</name>
+<version>1</version>
+<engineversion>25</engineversion>
+<description>Setup for HMCs explore script</description>
+<arguments>
+</arguments>
+<sourcetext>
+<line linenr="001" indent=""><text>load&#160;text:&#160;id=</text><var>1101</var></line>
+<line linenr="002" indent=""><text>set&#160;script&#160;command&#160;upgrade:&#160;command=</text><var>COMMAND_TYPE_NAV_9</var><text>&#160;&#160;upgrade=</text><var>Navigationssoftware&#160;MK1</var></line>
+<line linenr="003" indent=""><text>global&#160;script&#160;map:&#160;set:&#160;key=</text><var>COMMAND_TYPE_NAV_9</var><text>,&#160;class=</text><var>Ship</var><text>,&#160;race=</text><var>Player</var><text>,&#160;script=</text><call>plugin.hmc.exploreuniverse</call><text>,&#160;prio=</text><var>0</var></line>
+<line linenr="004" indent=""><text>global&#160;script&#160;map:&#160;ignore:&#160;key=</text><var>COMMAND_TYPE_NAV_9</var><text>,&#160;class=</text><var>Fight&#160;drone</var><text>,&#160;race=</text><var>Player</var></line>
+<line linenr="005" indent=""><text>global&#160;script&#160;map:&#160;ignore:&#160;key=</text><var>COMMAND_TYPE_NAV_9</var><text>,&#160;class=</text><var>Big&#160;Ship</var><text>,&#160;race=</text><var>Player</var></line>
+<line linenr="006" indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+<sval type="array" size="10"><sval type="string" val="setup.hmc.exploreuniverse" /><sval type="int" val="25" /><sval type="string" val="Setup for HMCs explore script" /><sval type="int" val="1" /><sval type="int" val="0" /><sval type="int" val="0" /><sval type="array" size="6"><sval type="array" size="3"><sval type="int" val="151" /><sval type="int" val="4" /><sval type="int" val="1101" /></sval><sval type="array" size="5"><sval type="int" val="144" /><sval type="int" val="18" /><sval type="int" val="209" /><sval type="int" val="9" /><sval type="int" val="1048629" /></sval><sval type="array" size="10"><sval type="int" val="118" /><sval type="int" val="18" /><sval type="int" val="209" /><sval type="string" val="plugin.hmc.exploreuniverse" /><sval type="int" val="4" /><sval type="int" val="0" /><sval type="int" val="12" /><sval type="int" val="2004" /><sval type="int" val="10" /><sval type="int" val="10" /></sval><sval type="array" size="7"><sval type="int" val="127" /><sval type="int" val="18" /><sval type="int" val="209" /><sval type="int" val="12" /><sval type="int" val="2067" /><sval type="int" val="10" /><sval type="int" val="10" /></sval><sval type="array" size="7"><sval type="int" val="127" /><sval type="int" val="18" /><sval type="int" val="209" /><sval type="int" val="12" /><sval type="int" val="2073" /><sval type="int" val="10" /><sval type="int" val="10" /></sval><sval type="array" size="3"><sval type="int" val="103" /><sval type="int" val="0" /><sval type="int" val="0" /></sval></sval><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /></sval>
+</codearray>
+</script>
