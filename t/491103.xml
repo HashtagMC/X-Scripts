@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language id="49">
+
+<page id="1103" descr="Nachrichten für das Homebase-Name-Script">
+<t id="1103">[author]%s[/author][title]\033G Kommando ausgeführt \033X[/title]Schiff %s trägt den Namen der Heimatbasis %s im Namen.</t>
+<t id="1104">[%s] %s</t>
+</page>
+
+<page id="2010" descr="Lange Kommando-Namen">
+<t id="509">Nach Heimatbasis benennen</t>
+</page>
+<page id="2011" descr="Kurze Kommando-Namen">
+<t id="509">HBName</t>
+</page>
+
+<page id="2022">
+<t id="509">Bennent das Schiff nach folgendem Schema:\n[Heimatbasis] Typ\nBeispiel: [Trägerschiff 5] Argon Buster \n\n\033BV2.0 \n\033BCopyright Jazura 562 HashtagMC Software Company, \033BHeimat des Lichts, Argonische Föderation</t>
+</page>
+
+</language>

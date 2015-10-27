@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?>
+<?xml-stylesheet href="x2script.xsl" type="text/xsl" ?>
+<script>
+<name>plugin.hmc.hbname</name>
+<version>2</version>
+<engineversion>25</engineversion>
+<description>Adds the homebase to a ships name</description>
+<arguments>
+</arguments>
+<sourcetext>
+<line linenr="001" indent=""><text>load&#160;text:&#160;id=</text><var>1103</var></line>
+<line linenr="002" indent=""><var>$hb&#160;=&#160;</var><var>[THIS]&#160;-&gt;</var><text>&#160;get&#160;homebase</text></line>
+<line linenr="003" indent=""><var>$name&#160;=&#160;</var><var>[THIS]&#160;-&gt;</var><text>&#160;get&#160;name</text></line>
+<line linenr="004" indent=""><var>$test&#160;=&#160;</var><var>[THIS]&#160;-&gt;</var><text>&#160;get&#160;ware&#160;type&#160;code&#160;of&#160;object</text></line>
+<line linenr="005" indent=""><var>$newname&#160;=&#160;</var><text>sprintf:&#160;pageid=</text><var>1103</var><text>&#160;textid=</text><var>1104</var><text>,&#160;</text><var>$hb</var><text>,&#160;</text><var>$test</var><text>,&#160;</text><var>null</var><text>,&#160;</text><var>null</var><text>,&#160;</text><var>null</var></line>
+<line linenr="006" indent=""><var>[THIS]&#160;-&gt;</var><text>&#160;set&#160;name&#160;to&#160;</text><var>$newname</var></line>
+<line linenr="007" indent=""><text>return&#160;</text><var>null</var></line>
+</sourcetext>
+<codearray>
+<sval type="array" size="10"><sval type="string" val="plugin.hmc.hbname" /><sval type="int" val="25" /><sval type="string" val="Adds the homebase to a ships name" /><sval type="int" val="2" /><sval type="int" val="0" /><sval type="array" size="4"><sval type="string" val="hb" /><sval type="string" val="name" /><sval type="string" val="test" /><sval type="string" val="newname" /></sval><sval type="array" size="7"><sval type="array" size="3"><sval type="int" val="151" /><sval type="int" val="4" /><sval type="int" val="1103" /></sval><sval type="array" size="4"><sval type="int" val="704" /><sval type="int" val="131075" /><sval type="int" val="65536" /><sval type="int" val="0" /></sval><sval type="array" size="4"><sval type="int" val="1028" /><sval type="int" val="131075" /><sval type="int" val="65536" /><sval type="int" val="1" /></sval><sval type="array" size="4"><sval type="int" val="707" /><sval type="int" val="131075" /><sval type="int" val="65536" /><sval type="int" val="2" /></sval><sval type="array" size="16"><sval type="int" val="150" /><sval type="int" val="3" /><sval type="int" val="4" /><sval type="int" val="1103" /><sval type="int" val="4" /><sval type="int" val="1104" /><sval type="int" val="131074" /><sval type="int" val="0" /><sval type="int" val="131074" /><sval type="int" val="2" /><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /></sval><sval type="array" size="5"><sval type="int" val="1029" /><sval type="int" val="131075" /><sval type="int" val="65536" /><sval type="int" val="131074" /><sval type="int" val="3" /></sval><sval type="array" size="3"><sval type="int" val="103" /><sval type="int" val="0" /><sval type="int" val="0" /></sval></sval><sval type="int" val="0" /><sval type="int" val="0" /><sval type="int" val="0" /></sval>
+</codearray>
+</script>
